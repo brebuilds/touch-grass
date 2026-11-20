@@ -1,6 +1,6 @@
-# Animated Grass Field
+# Touch Grass
 
-An original canvas implementation inspired by the interaction and visual behavior of the Framer Animated Grass Field reference.
+An original canvas implementation
 
 ## Included
 
@@ -14,7 +14,6 @@ An original canvas implementation inspired by the interaction and visual behavio
 - reduced-motion fallback
 - touch-friendly scrolling
 - reusable React component
-- optional Framer code component wrapper
 
 ## Run the demo
 
@@ -33,12 +32,7 @@ Copy `src/components/GrassField.jsx` into a React project, then render it inside
 </div>
 ```
 
-## Use in Framer
-
-Create a Framer code component from `framer/GrassField.tsx`. The wrapper exposes the main density, color, wind, pointer, growth, and night controls in Framer's property panel.
-
-The Framer wrapper imports the React component from this repository. If you paste it into Framer directly, paste the `GrassField.jsx` implementation into the same code file or update the import to your hosted component package.
 
 ## Design note
 
-The reference is powered by a 2D canvas simulation. Rive is excellent for authored vector animation, but canvas is the better fit for thousands of independent blades responding continuously to wind and pointer physics.
+This is powered by a 2D canvas simulation. Rive is excellent for authored vector animation, but canvas is the better fit for thousands of independent blades responding continuously to wind and pointer physics.
